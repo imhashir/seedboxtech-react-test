@@ -1,0 +1,12 @@
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 3vh 4vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.input-row {
+    padding: 0.5rem 0rem;
+}
