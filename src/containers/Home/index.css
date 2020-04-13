@@ -1,0 +1,15 @@
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-items {
+    padding: 1rem 10px;
+}
+
+.exit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
