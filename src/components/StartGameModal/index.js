@@ -30,6 +30,7 @@ const StartGameModal = props => {
 			isOpen={props.isOpen}
 			style={customStyles}
 			contentLabel="Example Modal"
+			ariaHideApp={false}
 		>
 			<div className={style.modalBody}>
 				<h3>Start a New Game</h3>
