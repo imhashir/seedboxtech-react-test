@@ -1,13 +1,13 @@
-.button-container {
+.buttonContainer {
     display: flex;
     flex-direction: row;
 }
 
-.menu-items {
+.menuItems {
     padding: 1rem 10px;
 }
 
-.exit-button {
+.exitButton {
     display: flex;
     flex-direction: row;
     justify-content: center;

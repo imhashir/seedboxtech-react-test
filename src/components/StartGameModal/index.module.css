@@ -1,4 +1,4 @@
-.modal-body {
+.modalBody {
     display: flex;
     flex-direction: column;
     color: white;
@@ -7,6 +7,6 @@
     justify-items: center;
 }
 
-.input-row {
+.inputRow {
     padding: 0.5rem 0rem;
 }

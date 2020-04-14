@@ -5,3 +5,7 @@
     justify-content: center;
     padding: 10vh 0;
 }
+
+.imageContainer {
+    padding: 0 10vw;
+}

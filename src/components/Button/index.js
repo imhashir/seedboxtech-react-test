@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import style from './index.module.css';
 import PropTypes from 'prop-types';
 
 const Button = props => {
@@ -7,7 +7,7 @@ const Button = props => {
         <button style={{
             padding: `${props.padding}`,
             ...props.style
-        }} onClick={props.onClick} className={`button ${props.className}`}>
+        }} onClick={props.onClick} className={`${style.button} ${props.className}`}>
             {props.children}
         </button>
     );

@@ -1,11 +1,12 @@
 import React from 'react';
-import './index.css';
-import logo from '../../assets/logo.svg';
+import style from './index.module.css';
 
 const MenuSection = props => {
     return (
-        <div className="main">
-            <img src={logo} alt={"App Logo"}/>
+        <div className={style.main}>
+            <div className={style.imageContainer}>
+              <img src='/assets/logo.svg' alt={"App Logo"}/>
+            </div>
             <div>
                 {props.children}
             </div>
